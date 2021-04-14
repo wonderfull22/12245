@@ -1,0 +1,131 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * YOOsearch
+ */
+
+#page div.yoo-search div.resultbox {
+	position: absolute;
+	right: 0px;
+	top: 26px;
+	z-index: 20;
+}
+
+
+/*
+ * YOOtweet
+ */
+
+#page div.list div.yoo-tweet ul li {
+	border-top: none;
+}
+
+#page div.list div.yoo-tweet ul li.first {
+	border: none;
+}
+
+#page div.list div.yoo-tweet ul li.odd {
+	background: url(../images/article_separator.png) 50% 100% repeat-x;
+}
+
+#page div.list div.yoo-tweet ul li.even {
+	background: url(../images/article_separator.png) 50% 100% repeat-x;
+}
+
+/*
+ * YOOscroller
+ */
+
+#top div.blank-h div.yoo-scroller {
+	margin-bottom: -10px;
+}
+
+#top div.blank-h div.yoo-scroller div.scrollarea {
+	background: url(../images/scrollarea_l.png) 0 0 no-repeat;
+}
+
+#top div.blank-h div.yoo-scroller div.scrollarea-l {
+	padding: 0px 30px 0px 30px;
+	background: url(../images/scrollarea_r.png) 100% 0 no-repeat;
+}
+
+#top div.blank-h div.yoo-scroller div.scrollarea-r {
+	background: url(../images/scrollarea_m.png) 0 0 repeat-x;
+}
+
+#top div.blank-h div.yoo-scroller div.back {
+	position: absolute;
+	left: 20px;
+}
+
+#top div.blank-h div.yoo-scroller div.forward {
+	position: absolute;
+	right: 20px;
+}
+
+#top div.blank-h div.yoo-scroller div.scrollbar {
+	position: absolute;
+	left: 41px;
+}
+
+/*
+ * YOOlogin
+ */
+
+ 
+/* quick */
+#headerbar span.quick span.yoo-login { 
+}
+
+#headerbar span.quick span.yoo-login span.login {
+	width: 231px;
+}
+
+#headerbar span.quick span.yoo-login span.login span.login-button-text,
+#headerbar span.quick span.yoo-login span.login span.login-button-icon {
+	margin-right: 0px;
+}
+
+#headerbar span.quick span.yoo-login span.login span.lostpassword, 
+#headerbar span.quick span.yoo-login span.login span.lostusername,
+#headerbar span.quick span.yoo-login span.login span.registration {
+	margin-top: 5px;
+}
+
+#headerbar span.quick span.yoo-login span.logout {
+	margin-top: 10px;
+	overflow: visible;
+}
+
+#headerbar span.quick span.yoo-login span.logout span.logout-button-text,
+#headerbar span.quick span.yoo-login span.logout span.logout-button-icon {
+	margin-right: 0px;
+}
+
+/* nifty quick */
+#headerbar span.niftyquick span.yoo-login { 
+}
+
+#headerbar span.niftyquick span.yoo-login span.login {
+	width: 268px;
+}
+
+#headerbar span.niftyquick span.yoo-login span.login span.login-button {
+	margin-right: 0px;
+}
+
+#headerbar span.niftyquick span.yoo-login span.login span.lostpassword, 
+#headerbar span.niftyquick span.yoo-login span.login span.lostusername,
+#headerbar span.niftyquick span.yoo-login span.login span.registration {
+	margin-top: 5px;
+}
+
+#headerbar span.niftyquick span.yoo-login span.logout {
+	margin-top: 10px;
+	overflow: visible;
+}
+
+#headerbar span.niftyquick span.yoo-login span.logout span.logout-button {
+	margin-right: 0px;
+}
+

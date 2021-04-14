@@ -1,0 +1,560 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * module headers
+ */
+
+/* reset header for all modules */
+div.module h3.header {
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 150%;
+	color: #646464;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+div.module h3.header {
+	color: #646464;
+}
+
+div.module h3.header span.color {
+	color: #E24912;
+}
+
+/* header span's */
+div.module span.header-2,
+div.module span.header-3 {
+	display: block;
+}
+
+/*
+ * space for adjoining modules
+ */
+
+.separator div.module {
+	margin: 0px 10px 0px 0px;
+}
+
+#left div.module,
+#right div.module {
+	margin: 0px 0px 15px 0px;
+}
+
+#top .topblock div.module {
+	margin: 10px 0px 0px 0px;
+}
+
+div#bottom .bottombox div.module {
+	padding: 10px 0px 10px 0px;
+}
+
+#bottom .bottomblock div.module {
+	margin: 0px 0px 10px 0px;
+}
+
+/*
+ * styling for special positions
+ */
+
+div#toolbar div.mod-blank {
+	margin: 0px 15px 0px 0px;
+	float: right;
+}
+
+div#headerbar div.module {
+	margin-left: 10px;
+	float: right;
+}
+
+/*
+ * badge styling for all modules
+ */
+ 
+div.module {
+	position: relative;
+}
+ 
+div.module div.badge-new, div.module div.badge-top, div.module div.badge-pick {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 39px;
+	height: 39px;
+	z-index: 1;
+}
+
+div.module div.badge-new {
+	background: url(../images/module_badge_new.png) 0 0 no-repeat;
+}
+
+div.module div.badge-top {
+	background: url(../images/module_badge_top.png) 0 0 no-repeat;
+}
+
+div.module div.badge-pick {
+	background: url(../images/module_badge_pick.png) 0 0 no-repeat;
+}
+
+div.module div.badge-circle {
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 34px;
+	height: 34px;
+	z-index: 1;
+	background: url(../images/module_badge_circle.png) 0 0 no-repeat;
+}
+
+/*
+ * module: blank
+ */
+ 
+ 
+div.mod-blank div.module {
+	overflow: hidden;
+}
+
+div.mod-blank h3.module {
+}
+
+#top div.mod-blank div.module,
+#bottom div.mod-blank div.module,
+#top div.mod-blank h3.header,
+#bottom div.mod-blank h3.header {
+	color: #323232;
+}
+
+/*
+ * module: rounded
+ */
+
+div.mod-rounded div.box-t1 {
+	background: url(../images/module_rounded_tl.png) 0 0 no-repeat;
+}
+
+div.mod-rounded div.box-t2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_rounded_tr.png) 100% 0 no-repeat;
+}
+
+div.mod-rounded div.box-t3 {
+	height: 15px;
+	background: url(../images/module_rounded_t.png) 0 0 repeat-x;
+}
+
+div.mod-rounded div.box-1 {
+	background: url(../images/module_rounded_l.png) 0 0 repeat-y;
+}
+
+div.mod-rounded div.box-2 {
+	padding: 0px 5px 0px 5px;
+	background: url(../images/module_rounded_r.png) 100% 0 repeat-y;
+}
+
+div.mod-rounded div.box-3 {
+	padding: 0px 10px 10px 10px;
+	background: #fcfdfe url(../images/module_rounded_bg.png) 0 100% repeat-x;
+	min-height: 20px;
+	overflow: hidden;
+}
+
+div.mod-rounded div.box-b1 {
+	background: url(../images/module_rounded_bl.png) 0 0 no-repeat;
+}
+
+div.mod-rounded div.box-b2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_rounded_br.png) 100% 0 no-repeat;
+}
+
+div.mod-rounded div.box-b3 {
+	height: 10px;
+	background: url(../images/module_rounded_b.png) 0 0 repeat-x;
+}
+
+div.mod-rounded div.badge-new, div.mod-rounded div.badge-top, div.mod-rounded div.badge-pick {
+	top: 5px;
+	right: 5px;
+}
+
+#headerbar div.mod-rounded div.deepest {
+	height: 50px;
+}
+
+/*
+ * module: rounded (only for header position)
+ */
+ 
+div.mod-rounded-header div.module {
+}
+
+div.mod-rounded-header div.box-1 {
+	background: url(../images/module_headerposition_l.png) 0 0 no-repeat;
+}
+
+div.mod-rounded-header div.box-2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_headerposition_r.png) 100% 0 no-repeat;
+}
+
+div.mod-rounded-header div.box-3 {
+	height: 75px;
+	padding: 10px 5px 0px 5px;
+	background: url(../images/module_headerposition_m.png) 0 0 repeat-x;
+	overflow: hidden;
+}
+
+/*
+ * module: window
+ */
+
+div.mod-window div.box-t1 {
+	background: url(../images/module_window_tl.png) 0 0 no-repeat;
+}
+
+div.mod-window div.box-t2 {
+	padding: 0px 25px 0px 25px;
+	background: url(../images/module_window_tr.png) 100% 0 no-repeat;
+}
+
+div.mod-window div.box-t3 {
+	height: 23px;
+	background: url(../images/module_window_t.png) 0 0 repeat-x;
+}
+
+div.mod-window div.box-1 {
+	background: url(../images/module_window_l.png) 0 0 repeat-y;
+}
+
+div.mod-window div.box-2 {
+	padding: 0px 20px 0px 20px;
+	background: url(../images/module_window_r.png) 100% 0 repeat-y;
+}
+
+div.mod-window div.box-3 {
+	padding: 8px 8px 8px 8px;
+	background: #F3F4F5 url(../images/module_window_bg.png) 0 100% repeat-x;
+	overflow: hidden;
+}
+
+div.mod-window div.box-b1 {
+	background: url(../images/module_window_bl.png) 0 0 no-repeat;
+}
+
+div.mod-window div.box-b2 {
+	padding: 0px 20px 0px 20px;
+	background: url(../images/module_window_br.png) 100% 0 no-repeat;
+}
+
+div.mod-window div.box-b3 {
+	height: 22px;
+	background: url(../images/module_window_b.png) 0 0 repeat-x;
+}
+
+div.mod-window div.badge-new, div.mod-window div.badge-top, div.mod-window div.badge-pick {
+	top: 5px;
+	right: 5px;
+}
+
+/* menu */
+
+/*
+ * module: concave
+ */
+
+div.mod-concave div.box-t1 {
+	background: url(../images/module_concave_tl.png) 0 0 no-repeat;
+}
+
+div.mod-concave div.box-t2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_concave_tr.png) 100% 0 no-repeat;
+}
+
+div.mod-concave div.box-t3 {
+	height: 10px;
+	background: url(../images/module_concave_t.png) 0 0 repeat-x;
+}
+
+div.mod-concave div.box-1 {
+	background: #f0f1f2 url(../images/module_concave_l.png) 0 0 repeat-y;
+}
+
+div.mod-concave div.box-2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_concave_r.png) 100% 0 repeat-y;
+	overflow: hidden;
+}
+
+div.mod-concave div.box-b1 {
+	background: url(../images/module_concave_bl.png) 0 0 no-repeat;
+}
+
+div.mod-concave div.box-b2 {
+	padding: 0px 10px 0px 10px;
+	background: url(../images/module_concave_br.png) 100% 0 no-repeat;
+}
+
+div.mod-concave div.box-b3 {
+	height: 10px;
+	background: url(../images/module_concave_b.png) 0 0 repeat-x;
+}
+
+/*
+ * module: angled
+ */
+
+div.mod-angled div.box-1 {
+	padding: 10px 15px 10px 15px;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #A8AAAA;
+	background: #EEF0F0 url(../images/module_angled_bg.png) 0 100% repeat-x;
+	overflow: hidden;
+}
+
+/*
+ * module: grey
+ */
+ 
+div.mod-grey div.box-t1 {
+	background: url(../images/module_grey_tl.png) 0 0 no-repeat;
+}
+
+div.mod-grey div.box-t2 {
+	padding: 0px 20px 0px 20px;
+	background: url(../images/module_grey_tr.png) 100% 0 no-repeat;
+}
+
+div.mod-grey div.box-t3 {
+	height: 20px;
+	background: url(../images/module_grey_t.png) 0 0 repeat-x;
+}
+
+div.mod-grey div.box-1 {
+	background: url(../images/module_grey_l.png) 0 0 repeat-y;
+}
+
+div.mod-grey div.box-2 {
+	padding: 0px 5px 0px 5px;
+	background: url(../images/module_grey_r.png) 100% 0 repeat-y;
+}
+
+div.mod-grey div.box-3 {
+	padding: 0px 9px 0px 9px;
+	background: #fcfdfe url(../images/module_grey_inner.png) 0 100% repeat-x;
+}
+
+div.mod-grey div.box-4 {
+	padding: 0px 1px 0px 1px;
+	background: #828282 url(../images/module_grey_border.png) 0 100% repeat-x;
+}
+
+div.mod-grey div.box-5 {
+	padding: 4px 10px 5px 10px;
+	min-height: 41px;
+	background: #828282 url(../images/module_grey_bg.png) 0 100% repeat-x;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+div.mod-grey div.box-b1 {
+	background: url(../images/module_grey_bl.png) 0 0 no-repeat;
+}
+
+div.mod-grey div.box-b2 {
+	padding: 0px 20px 0px 20px;
+	background: url(../images/module_grey_br.png) 100% 0 no-repeat;
+}
+
+div.mod-grey div.box-b3 {
+	height: 20px;
+	background: url(../images/module_grey_b.png) 0 0 repeat-x;
+}
+
+div.mod-grey h3.header {
+	color: #ffffff;
+}
+
+div.mod-grey h3.header span.color {
+	color: #ffffff;
+}
+
+div.mod-grey div.box-5 a:link,
+div.mod-grey div.box-5 a:visited,
+div.mod-grey div.box-5 a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+div.mod-grey div.badge-new, div.mod-grey div.badge-top, div.mod-grey div.badge-pick {
+	top: 5px;
+	right: 5px;
+}
+
+/*
+ * module: separator
+ */
+
+div#bottom .bottombox div.mod-separator div.module {
+	padding: 0px 0px 0px 0px;
+}
+
+ .separator div.mod-separator div.module {
+	margin: 0px 0px 0px 0px;
+}
+ 
+.separator div.mod-separator div.box-1 {
+	background: url(../images/module_separator_t.png) 100% 0 no-repeat;
+}
+
+div.mod-separator div.box-2 {
+	padding: 20px 0px 20px 0px;
+}
+
+.separator div.mod-separator div.box-2 {
+	background: url(../images/module_separator_b.png) 100% 100% no-repeat;
+
+}
+
+div.mod-separator div.box-3 {
+	padding: 0px 10px 0px 10px;
+}
+
+.separator div.mod-separator div.box-3 {
+	padding-right: 25px;
+	background: url(../images/module_separator_m.png) 100% 0 repeat-y;
+}
+
+#top div.mod-separator div.box-3,
+#bottom div.mod-separator div.box-3,
+#top div.mod-separator h3.header,
+#bottom div.mod-separator h3.header {
+	color: #323232;
+}
+
+/*
+ * module: line
+ */
+ 
+div.mod-line div.module {
+	padding: 0px 0px 15px 0px;
+}
+
+div.mod-line div.box-1 {
+	overflow: hidden;
+}
+
+div.mod-line h3.header {
+	margin: 0px 0px 3px 0px;
+	padding:0px 0px 6px 0px;
+	background: url(../images/module_line_header.png) 0 100% repeat-x;
+}
+
+/*
+ * module: polaroid
+ */
+
+div.mod-polaroid div.badge-tape {
+	position: absolute;
+	top: -13px;
+	left: 50%;
+	width: 114px;
+	height: 38px;
+	margin-left: -57px;
+	background: url(../images/module_polaroid_tape.png) 0 0 no-repeat;
+	z-index: 1;
+}
+
+div.mod-polaroid div.box-1 {
+	margin-top: 13px;
+	padding: 10px 10px 5px 10px;
+	border-top: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+	background: #ffffff url(../images/module_polaroid_bg.png) 0 100% repeat-x;
+	overflow: hidden;
+}
+
+div.mod-polaroid div.box-2 {
+	margin-bottom: 5px;
+	background: #000000;
+}
+
+div.mod-polaroid div.box-3 {
+	padding: 10px 15px 10px 15px;
+	overflow: hidden;
+	font-family: "Comic Sans MS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #C8C8C8;
+}
+
+div.mod-polaroid div.box-b1 {
+	background: url(../images/module_polaroid_bl.png) 0 0 no-repeat;
+}
+
+div.mod-polaroid div.box-b2 {
+	padding: 0px 70px 0px 70px;
+	background: url(../images/module_polaroid_br.png) 100% 0 no-repeat;
+}
+
+div.mod-polaroid div.box-b3 {
+	height: 5px;
+	background: url(../images/module_polaroid_b.png) 0 0 repeat-x;
+}
+
+div.mod-polaroid h3.header {
+	height: 25px;
+	margin: 0px 0px 0px 0px;
+	font-size: 140%;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: -1px;
+	font-family: "Comic Sans MS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #323232;
+}
+
+/*
+ * module: postit
+ */
+
+div.mod-postit div.box-1 {
+	background: #FFFFAA;
+	color: #323232;
+}
+
+div.mod-postit div.box-2 {
+	padding: 15px 15px 0px 15px;
+	overflow: hidden;
+	font-family: "Comic Sans MS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+div.mod-postit div.box-b1 {
+	background: url(../images/module_postit_bl.png) 0 0 no-repeat;
+}
+
+div.mod-postit div.box-b2 {
+	padding: 0px 90px 0px 60px;
+	background: url(../images/module_postit_br.png) 100% 0 no-repeat;
+}
+
+div.mod-postit div.box-b3 {
+	height: 40px;
+	background: url(../images/module_postit_b.png) 0 0 repeat-x;
+}
+
+div.mod-postit h3.header {
+	height: 30px;
+	margin: -15px -15px 5px -15px;
+	background: #FFFFDA;
+	font-size: 140%;
+	line-height: 30px;
+	text-indent: 15px;
+	letter-spacing: -1px;
+	font-family: "Comic Sans MS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #323232;
+}

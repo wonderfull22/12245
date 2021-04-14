@@ -1,0 +1,266 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/*
+ * headings
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+	color: #e24912;
+}
+
+#page h1 a {
+	color: #e24912;
+	text-decoration: none;
+}
+
+h2 {
+	color: #969696;
+}
+
+h3 {
+	color: #646464;
+}
+
+h4 {
+	font-weight: normal;
+	color: #e24912;
+}
+
+h5 {
+	color: #323232;
+}
+
+h6 {
+	color: #e24912;
+}
+
+/*
+ * anchor
+ */
+
+a:link, a:visited {
+	color: #e24912;
+}
+
+a:hover {
+	color: #ff6400;
+	text-decoration: none;
+}
+
+a.icon-folder {
+        padding-left: 17px;
+        background: url(../images/icon_folder.png) 0 40% no-repeat;
+}
+
+a.icon-file {
+        padding-left: 17px;
+        background: url(../images/icon_file.png) 0 40% no-repeat;
+}
+
+a.icon-download {
+        padding-left: 17px;
+        background: url(../images/icon_download.png) 0 40% no-repeat;
+}
+
+a.icon-external {
+        padding-left: 17px;
+        background: url(../images/icon_external.png) 0 40% no-repeat;
+}
+
+a.icon-pdf {
+        padding-left: 17px;
+        background: url(../images/pdf_button.png) 0 40% no-repeat;
+}
+
+/*
+ * emphasis
+ */
+
+em.box { 
+	padding: 0px 4px 0px 4px;
+	background: #ffffff;
+	border-bottom: 1px dotted #AAB4BE;
+	font-style: normal;
+}
+
+/*
+ * unsorted lists
+ */
+
+ul.arrow,
+ul.checkbox,
+ul.check,
+ul.star {
+	margin: 10px 0px 10px 0px;
+	padding-left: 20px;
+	list-style: none;
+}
+
+ul.arrow li,
+ul.checkbox li,
+ul.check li,
+ul.star li {
+	margin: 5px 0px 5px 0px;
+	padding-left: 35px;
+	font-weight: bold;
+	line-height: 26px;  
+}
+
+ul.arrow li { background: url(../images/list_arrow.png) 0 0 no-repeat; }
+ul.checkbox li { background: url(../images/list_checkbox.png) 0 0 no-repeat; }
+ul.check li { background: url(../images/list_check.png) 0 0 no-repeat; }
+ul.star li { background: url(../images/list_star.png) 0 0 no-repeat; }
+
+
+/*
+ * ordered lists
+ */
+
+ol.disc {
+	margin: 10px 0px 10px 0px;
+	padding: 0px 0px 0px 45px;
+	background: url(../images/list_disc.png) 20px 0px repeat-y;
+}
+
+ol.disc li {
+	margin: 5px 0px 5px 0px;
+	padding-left: 10px;
+	font-weight: bold;
+	line-height: 26px;  
+}
+
+/*
+ * horizontal rule
+ */
+ 
+hr.dotted {
+	margin: 15px 0px 15px 0px;
+	display: block;
+	background: url(../images/line_dotted.png) 0 0 repeat-x;
+	height: 1px;
+	border: none;
+}
+
+/*
+ * highlighted div and span tags
+ */
+
+span.note,
+span.info,
+span.alert,
+span.download,
+span.tip {
+	display: block;
+}
+
+div.note, span.note {
+	margin: 10px 0px 10px 0px;
+	padding: 5px 10px 5px 10px;
+	background: #ffffff;
+	border-top: 1px dotted #AAB4BE;
+	border-bottom: 1px dotted #AAB4BE;
+	text-align:justify;
+}
+
+div.info, span.info,
+div.alert, span.alert,
+div.download, span.download,
+div.tip, span.tip {
+	margin: 10px 0px 10px 0px;
+	padding: 8px 10px 8px 35px;
+}
+
+div.info, span.info {
+	background: #ffffff url(../images/box_info.png) 3px 5px no-repeat;
+	border-top: 1px dotted #AAB4BE;
+	border-bottom: 1px dotted #AAB4BE;
+}
+
+div.alert, span.alert {
+	background: #FFF5EB url(../images/box_alert.png) 3px 5px no-repeat;
+	border-top: 1px dotted #FFB4A0;
+	border-bottom: 1px dotted #FFB4A0;
+}
+
+div.download, span.download {
+	background: #F5FAEB url(../images/box_download.png) 3px 5px no-repeat;
+	border-top: 1px dotted #78BE5A;
+	border-bottom: 1px dotted #78BE5A;
+}
+
+div.tip, span.tip {
+	background: #FFFDEB url(../images/box_tip.png) 3px 5px no-repeat;
+	border-top: 1px dotted #FFC864;
+	border-bottom: 1px dotted #FFC864;
+}
+
+/*
+ * p tag with dropcaps
+ */
+ 
+p.dropcap:first-letter {
+	display: block;
+	margin: 7px 4px 0px 0px;
+	float: left;
+	font-size: 280%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*
+ * blockquotes
+ */
+
+q.blockquote {
+	display: block;
+}
+
+q.blockquote {
+	margin: 10px 0px 10px 15px;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+	font-size: 130%;
+}
+
+q.blockquote:before,
+q.blockquote:after {
+  content: "";
+}
+
+blockquote:first-letter,
+q.blockquote:first-letter,
+blockquote.quotation p:first-letter {
+	font-size: 150%;
+}
+
+blockquote.quotation {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 35px 10px 35px;
+	border: none;
+	background: url(../images/blockquote_start.png) 0 0 no-repeat;
+	text-align:justify;
+}
+
+blockquote.quotation p {
+	margin: 0px -35px -10px 0px;
+	padding: 0px 35px 10px 0px;
+	background: url(../images/blockquote_end.png) 100% 100% no-repeat;
+}
+
+/*
+ * floating boxes
+ */
+
+body .inset-left {
+	margin: 15px 15px 10px 0px;
+	float: left;
+}
+
+body .inset-right {
+	margin: 15px 0px 10px 15px;
+	float: right;
+}
